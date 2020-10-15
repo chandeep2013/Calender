@@ -1,0 +1,14 @@
+<mvc:View controllerName="test.Calender.controller.View1" xmlns:u="sap.ui.unified" xmlns:mvc="sap.ui.core.mvc" displayBlock="true"
+	xmlns="sap.m" xmlns:fc="test.Calender.control">
+	<Shell id="shell">
+		<App id="app">
+			<pages>
+				<Page id="page" title="{i18n>title}">
+					<content>
+						<fc:fullCalanderCustomControl items="{fullCalenderData>/}"></fc:fullCalanderCustomControl>
+					</content>
+				</Page>
+			</pages>
+		</App>
+	</Shell>
+</mvc:View>
