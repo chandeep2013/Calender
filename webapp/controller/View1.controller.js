@@ -4,7 +4,8 @@ sap.ui.define([
 	"use strict";
 
 	return Controller.extend("test.Calender.controller.View1", {
-		onInit: function () {
+		//
+		onInit: function () { 
 			var fullCalenderData = [{
 					title: "Room-1",
 					start: "2019-11-01T09:00:00",
